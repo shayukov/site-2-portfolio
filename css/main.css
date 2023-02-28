@@ -1,0 +1,71 @@
+/* Общие селекторы */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+:root {
+  --main-color-green: #01996D;
+  --main-color-gray: #424242;
+}
+.container {
+  max-width: 1370px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+/* шапка сайта */
+.header_meny {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 0;
+}
+.meny_list {
+}
+.list_items {
+  display: flex;
+  list-style: none;
+}
+.list_items a {
+  text-decoration-line: none;
+}
+.meny_sign {
+
+}
+.input {
+  border: none;
+  width: 95px;
+  padding: 13px 35px 13px 0;
+}
+.btn {
+  padding: 13px 50px;
+  background-color: var(--main-color-green);
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.header_bg {
+  background-image: url(../img/headerBG.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 895px;
+  border-top: 1px solid rgb(231, 230, 230);
+}
+
+h1 {
+  font-family: Georgia;
+  color: var(--main-color-green);
+  font-size: 65px;
+  line-height: 74px;
+  width: 440px;
+  font-weight: 700;
+}
